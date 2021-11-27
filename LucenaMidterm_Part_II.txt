@@ -1,0 +1,54 @@
+Lucena, John Mowlder G.							November 27, 2021
+Web Technologies I - Midterms Exam					2BSIT - 2nd Year
+
+1. Differentiate the following CSS selectors (20 pts)
+a. Combining selectors
+Combining selectors explains that there is a relationship between the two selectors.
+There are four different combinators in CSS: descendent selector, child selector, 
+adjacent sibling selector, and general sibling selector.
+
+Descendant selector uses a space between the two elements, which means it matches all elements 
+that are descendates of a specified element.
+
+Child selector uses a greater than sign between the two elements, which means it selects all 
+elements that are children of a specidied element.
+
+Adjacent Sibling Selector uses a plus sign between the two elements, which means it selects an 
+element that is directly after specific element.
+
+General Sibling Selector uses a tilde symbol between the two elements, which means it selects
+all elements that are next siblings of a specified element 
+
+
+b. Class and ID selectors
+Class Selector selects the elements of HTML with a specific class attribute. The character used
+to call the class of an element is Dot(.). On the other hand ID Selector uses the id attribute 
+of an HTML element to select a specific element. The character used to call the id of an element 
+is Hash(#)
+
+
+c. Pseudo-classes
+Pseudo-clases is used in order to define a special state of an element. Examples of a pseudo
+-classes are a:hover, a:visited, a:unvisited, and a:focus. It can also be combined with an 
+HTML Classes. 
+
+
+2. Differentiate the following hyperlinks styling attributes (20pts)
+a. a:hover
+a:hover happens when the link(s) changed color when the mouse pointer is at the 
+hyperlink. This pseudo class selector links on mouse over.   
+
+
+b. a:active
+a:active happens when the link becomes active when you click on it. This pseudo
+selector selects the active link.
+
+
+c. a:visited
+a:visited happens when the hyperlink(s) is already clicked by the user. Once the
+link is clicked, the color of the link is change. This pseduo selector selects 
+all visited links
+
+d. a:link
+a:link happens when the links does not style when you have already visited.This 
+pseudo selector selects all unvisited links.
