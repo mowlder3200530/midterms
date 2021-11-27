@@ -1,0 +1,132 @@
+/* .main-header {
+  color: blue;
+  padding: 30px;
+  border: 10px solid pink;
+  float: left;
+} */
+
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #0d00bd;
+  position: relative;
+}
+
+
+/* .header-container {
+  border: 5px solid red;
+  padding: 10px;
+} */
+
+/*
+.aside-container{
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 10px 20px;
+  float: left;
+  width: 400px;
+}
+*/
+
+.article-container {
+  padding: 10px;
+  width: 600px;
+  float: right;
+}
+
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: #0d00bd;
+}
+
+a:active {
+  color: orange;
+}
+
+li{
+  color: #1098ad;
+  font-family: sans-serif;
+}
+
+
+/* article p:nth-last-child(1) {
+  color: red;
+} */
+
+h1::after {
+  content: "TOP";
+  background-color: orange;
+  font-size: 11px;
+  font-weight: bold;
+  /* display: inline-block; */
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+h1 {
+  color: #1098ad;
+  padding: 20px 10px;
+  margin: 5px 10px;
+  /* float: left; */
+}
+
+h2 {
+  color: #1098ad;
+}
+
+h4 {
+  color: #fff;
+  background-color: #000;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  font-family: sans-serif;
+}
+
+h5 {
+  color: #1098ad;
+}
+
+aside {
+  float: left;
+  width: 100px;
+  /* border-top: 100px solid red; */
+}
+
+
+.like-button {
+  position: right;
+  left: 500px;
+}
+.share-button {
+  position: right;
+  left: 300px;
+}
+
+nav{
+  color: teal;
+  font-family: sans-serif;
+  float: left;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+footer{
+  float: left;
+}
+
+.related-author{
+  color: #444;
+}
