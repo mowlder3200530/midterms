@@ -33,6 +33,7 @@ Pseudo-clases is used in order to define a special state of an element. Examples
 HTML Classes. 
 
 
+
 2. Differentiate the following hyperlinks styling attributes (20pts)
 a. a:hover
 a:hover happens when the link(s) changed color when the mouse pointer is at the 
@@ -48,6 +49,7 @@ c. a:visited
 a:visited happens when the hyperlink(s) is already clicked by the user. Once the
 link is clicked, the color of the link is change. This pseduo selector selects 
 all visited links
+
 
 d. a:link
 a:link happens when the links does not style when you have already visited.This 
